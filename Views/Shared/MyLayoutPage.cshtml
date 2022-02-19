@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "MyLayoutPage";
+}
+<html>
+<body>
+    <h1>My Layout Page</h1>
+
+    <div>
+        @RenderBody()
+    </div>
+    @RenderSection("scripts",required:false)
+</body>
+</html>
